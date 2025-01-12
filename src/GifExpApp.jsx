@@ -2,6 +2,8 @@ import React from 'react'
 
 export const GifExpApp = () => {
   return (
-    <div>GifExpApp</div>
+    <>
+      <h1>GifExpApp</h1>
+    </>
   )
 }
