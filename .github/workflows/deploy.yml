@@ -35,6 +35,8 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+      - name: Set environment variables
+        run: echo "VITE_REACT_APP_GIPHY_API=${{ secrets.VITE_REACT_APP_GIPHY_API}}" >> $GITHUB_ENV
       - name: Install dependencies
         run: npm ci
       - name: Build
