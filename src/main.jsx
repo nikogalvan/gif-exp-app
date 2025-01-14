@@ -5,5 +5,5 @@ import { GifExpApp } from './GifExpApp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <GifExpApp />
-  </StrictMode>,
+  </StrictMode>
 )
